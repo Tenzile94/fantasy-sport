@@ -383,11 +383,11 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="p-4 bg-blue-50 flex justify-center">
+                {/* <div className="p-4 bg-blue-50 flex justify-center">
                   <Button className="bg-blue-600 hover:bg-blue-700">
                     View All Live Games <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -440,14 +440,14 @@ export default function Home() {
                     </div>
                   </div>
                 </CardContent>
-                <CardFooter>
+                {/* <CardFooter>
                   <Button
                     variant="outline"
                     className="w-full border-blue-600 hover:bg-blue-50 hover:text-blue-600"
                   >
                     View Details
                   </Button>
-                </CardFooter>
+                </CardFooter> */}
               </Card>
 
               <Card className="hover:shadow-xl transition-all duration-300 border-purple-200 hover:border-purple-400">
@@ -482,14 +482,14 @@ export default function Home() {
                     </div>
                   </div>
                 </CardContent>
-                <CardFooter>
+                {/* <CardFooter>
                   <Button
                     variant="outline"
                     className="w-full border-purple-600 hover:bg-purple-50 hover:text-purple-600"
                   >
                     View Details
                   </Button>
-                </CardFooter>
+                </CardFooter> */}
               </Card>
 
               <Card className="hover:shadow-xl transition-all duration-300 border-orange-200 hover:border-orange-400">
@@ -524,14 +524,14 @@ export default function Home() {
                     </div>
                   </div>
                 </CardContent>
-                <CardFooter>
+                {/* <CardFooter>
                   <Button
                     variant="outline"
                     className="w-full border-orange-600 hover:bg-orange-50 hover:text-orange-600"
                   >
                     View Details
                   </Button>
-                </CardFooter>
+                </CardFooter> */}
               </Card>
 
               <Card className="hover:shadow-xl transition-all duration-300 border-blue-200 hover:border-blue-400">
@@ -566,14 +566,14 @@ export default function Home() {
                     </div>
                   </div>
                 </CardContent>
-                <CardFooter>
+                {/* <CardFooter>
                   <Button
                     variant="outline"
                     className="w-full border-blue-600 hover:bg-blue-50 hover:text-blue-600"
                   >
                     View Details
                   </Button>
-                </CardFooter>
+                </CardFooter> */}
               </Card>
             </div>
           </div>
@@ -590,7 +590,7 @@ export default function Home() {
                   Ready to Dominate Your Fantasy League?
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Sign up today and start building your championship team.
+                  Contact us today and start building your championship team.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
@@ -599,16 +599,16 @@ export default function Home() {
                   asChild
                   className="bg-blue-600 hover:bg-blue-700"
                 >
-                  <Link href="#">Create Free Account</Link>
+                  <Link href="/contact">Contact Us</Link>
                 </Button>
-                <Button
+                {/* <Button
                   size="lg"
                   variant="outline"
                   asChild
                   className="border-blue-600 hover:bg-blue-50 hover:text-blue-600"
                 >
                   <Link href="#">View Pricing Plans</Link>
-                </Button>
+                </Button> */}
               </div>
             </div>
           </div>

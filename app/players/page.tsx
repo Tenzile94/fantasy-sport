@@ -122,12 +122,9 @@ export default function PlayersPage() {
 
           <div className="mt-8">
             <Tabs defaultValue="football">
-              <TabsList className="grid w-full grid-cols-5">
+              <TabsList className="grid w-full grid-cols-2">
                 <TabsTrigger value="football">Football</TabsTrigger>
                 <TabsTrigger value="basketball">Basketball</TabsTrigger>
-                <TabsTrigger value="baseball">Baseball</TabsTrigger>
-                <TabsTrigger value="soccer">Soccer</TabsTrigger>
-                <TabsTrigger value="hockey">Hockey</TabsTrigger>
               </TabsList>
               <TabsContent value="football" className="mt-4">
                 <div className="rounded-md border">
@@ -150,7 +147,6 @@ export default function PlayersPage() {
                           </div>
                         </TableHead>
                         <TableHead>Status</TableHead>
-                        <TableHead className="text-right">Actions</TableHead>
                       </TableRow>
                     </TableHeader>
                     <TableBody>
@@ -167,11 +163,6 @@ export default function PlayersPage() {
                             Healthy
                           </span>
                         </TableCell>
-                        <TableCell className="text-right">
-                          <Button size="sm" variant="outline">
-                            View
-                          </Button>
-                        </TableCell>
                       </TableRow>
                       <TableRow>
                         <TableCell className="font-medium">
@@ -185,11 +176,6 @@ export default function PlayersPage() {
                           <span className="inline-flex items-center rounded-full bg-red-100 px-2.5 py-0.5 text-xs font-medium text-red-800">
                             Injured
                           </span>
-                        </TableCell>
-                        <TableCell className="text-right">
-                          <Button size="sm" variant="outline">
-                            View
-                          </Button>
                         </TableCell>
                       </TableRow>
                       <TableRow>
@@ -205,11 +191,6 @@ export default function PlayersPage() {
                             Healthy
                           </span>
                         </TableCell>
-                        <TableCell className="text-right">
-                          <Button size="sm" variant="outline">
-                            View
-                          </Button>
-                        </TableCell>
                       </TableRow>
                       <TableRow>
                         <TableCell className="font-medium">
@@ -223,11 +204,6 @@ export default function PlayersPage() {
                           <span className="inline-flex items-center rounded-full bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800">
                             Healthy
                           </span>
-                        </TableCell>
-                        <TableCell className="text-right">
-                          <Button size="sm" variant="outline">
-                            View
-                          </Button>
                         </TableCell>
                       </TableRow>
                       <TableRow>
@@ -243,11 +219,6 @@ export default function PlayersPage() {
                             Healthy
                           </span>
                         </TableCell>
-                        <TableCell className="text-right">
-                          <Button size="sm" variant="outline">
-                            View
-                          </Button>
-                        </TableCell>
                       </TableRow>
                       <TableRow>
                         <TableCell className="font-medium">
@@ -261,11 +232,6 @@ export default function PlayersPage() {
                           <span className="inline-flex items-center rounded-full bg-yellow-100 px-2.5 py-0.5 text-xs font-medium text-yellow-800">
                             Questionable
                           </span>
-                        </TableCell>
-                        <TableCell className="text-right">
-                          <Button size="sm" variant="outline">
-                            View
-                          </Button>
                         </TableCell>
                       </TableRow>
                       <TableRow>
@@ -281,11 +247,6 @@ export default function PlayersPage() {
                             Healthy
                           </span>
                         </TableCell>
-                        <TableCell className="text-right">
-                          <Button size="sm" variant="outline">
-                            View
-                          </Button>
-                        </TableCell>
                       </TableRow>
                       <TableRow>
                         <TableCell className="font-medium">
@@ -300,38 +261,12 @@ export default function PlayersPage() {
                             Out
                           </span>
                         </TableCell>
-                        <TableCell className="text-right">
-                          <Button size="sm" variant="outline">
-                            View
-                          </Button>
-                        </TableCell>
                       </TableRow>
                     </TableBody>
                   </Table>
                 </div>
               </TabsContent>
               <TabsContent value="basketball" className="mt-4">
-                <div className="flex items-center justify-center p-12">
-                  <p className="text-muted-foreground">
-                    Select the Football tab to view player statistics
-                  </p>
-                </div>
-              </TabsContent>
-              <TabsContent value="baseball" className="mt-4">
-                <div className="flex items-center justify-center p-12">
-                  <p className="text-muted-foreground">
-                    Select the Football tab to view player statistics
-                  </p>
-                </div>
-              </TabsContent>
-              <TabsContent value="soccer" className="mt-4">
-                <div className="flex items-center justify-center p-12">
-                  <p className="text-muted-foreground">
-                    Select the Football tab to view player statistics
-                  </p>
-                </div>
-              </TabsContent>
-              <TabsContent value="hockey" className="mt-4">
                 <div className="flex items-center justify-center p-12">
                   <p className="text-muted-foreground">
                     Select the Football tab to view player statistics

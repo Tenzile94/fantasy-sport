@@ -212,9 +212,9 @@ export default function TeamPage() {
               <TabsContent value="roster" className="mt-4">
                 <div className="flex items-center justify-between mb-4">
                   <h2 className="text-xl font-bold">Current Roster</h2>
-                  <Button size="sm">
+                  {/* <Button size="sm">
                     <Plus className="mr-2 h-4 w-4" /> Add Player
-                  </Button>
+                  </Button> */}
                 </div>
                 <div className="rounded-md border">
                   <Table>
@@ -230,7 +230,7 @@ export default function TeamPage() {
                           </div>
                         </TableHead>
                         <TableHead>Status</TableHead>
-                        <TableHead className="text-right">Actions</TableHead>
+                        {/* <TableHead className="text-right">Actions</TableHead> */}
                       </TableRow>
                     </TableHeader>
                     <TableBody>
@@ -246,20 +246,7 @@ export default function TeamPage() {
                             Healthy
                           </span>
                         </TableCell>
-                        <TableCell className="text-right">
-                          <DropdownMenu>
-                            <DropdownMenuTrigger asChild>
-                              <Button variant="ghost" size="sm">
-                                <MoreHorizontal className="h-4 w-4" />
-                              </Button>
-                            </DropdownMenuTrigger>
-                            <DropdownMenuContent align="end">
-                              <DropdownMenuItem>View Stats</DropdownMenuItem>
-                              <DropdownMenuItem>Bench Player</DropdownMenuItem>
-                              <DropdownMenuItem>Drop Player</DropdownMenuItem>
-                            </DropdownMenuContent>
-                          </DropdownMenu>
-                        </TableCell>
+                        {/* */}
                       </TableRow>
                       <TableRow>
                         <TableCell className="font-medium">
@@ -272,20 +259,6 @@ export default function TeamPage() {
                           <span className="inline-flex items-center rounded-full bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800">
                             Healthy
                           </span>
-                        </TableCell>
-                        <TableCell className="text-right">
-                          <DropdownMenu>
-                            <DropdownMenuTrigger asChild>
-                              <Button variant="ghost" size="sm">
-                                <MoreHorizontal className="h-4 w-4" />
-                              </Button>
-                            </DropdownMenuTrigger>
-                            <DropdownMenuContent align="end">
-                              <DropdownMenuItem>View Stats</DropdownMenuItem>
-                              <DropdownMenuItem>Bench Player</DropdownMenuItem>
-                              <DropdownMenuItem>Drop Player</DropdownMenuItem>
-                            </DropdownMenuContent>
-                          </DropdownMenu>
                         </TableCell>
                       </TableRow>
                       <TableRow>
@@ -300,20 +273,6 @@ export default function TeamPage() {
                             Questionable
                           </span>
                         </TableCell>
-                        <TableCell className="text-right">
-                          <DropdownMenu>
-                            <DropdownMenuTrigger asChild>
-                              <Button variant="ghost" size="sm">
-                                <MoreHorizontal className="h-4 w-4" />
-                              </Button>
-                            </DropdownMenuTrigger>
-                            <DropdownMenuContent align="end">
-                              <DropdownMenuItem>View Stats</DropdownMenuItem>
-                              <DropdownMenuItem>Bench Player</DropdownMenuItem>
-                              <DropdownMenuItem>Drop Player</DropdownMenuItem>
-                            </DropdownMenuContent>
-                          </DropdownMenu>
-                        </TableCell>
                       </TableRow>
                       <TableRow>
                         <TableCell className="font-medium">
@@ -327,20 +286,6 @@ export default function TeamPage() {
                             Healthy
                           </span>
                         </TableCell>
-                        <TableCell className="text-right">
-                          <DropdownMenu>
-                            <DropdownMenuTrigger asChild>
-                              <Button variant="ghost" size="sm">
-                                <MoreHorizontal className="h-4 w-4" />
-                              </Button>
-                            </DropdownMenuTrigger>
-                            <DropdownMenuContent align="end">
-                              <DropdownMenuItem>View Stats</DropdownMenuItem>
-                              <DropdownMenuItem>Bench Player</DropdownMenuItem>
-                              <DropdownMenuItem>Drop Player</DropdownMenuItem>
-                            </DropdownMenuContent>
-                          </DropdownMenu>
-                        </TableCell>
                       </TableRow>
                       <TableRow>
                         <TableCell className="font-medium">
@@ -353,20 +298,6 @@ export default function TeamPage() {
                           <span className="inline-flex items-center rounded-full bg-red-100 px-2.5 py-0.5 text-xs font-medium text-red-800">
                             Out
                           </span>
-                        </TableCell>
-                        <TableCell className="text-right">
-                          <DropdownMenu>
-                            <DropdownMenuTrigger asChild>
-                              <Button variant="ghost" size="sm">
-                                <MoreHorizontal className="h-4 w-4" />
-                              </Button>
-                            </DropdownMenuTrigger>
-                            <DropdownMenuContent align="end">
-                              <DropdownMenuItem>View Stats</DropdownMenuItem>
-                              <DropdownMenuItem>Bench Player</DropdownMenuItem>
-                              <DropdownMenuItem>Drop Player</DropdownMenuItem>
-                            </DropdownMenuContent>
-                          </DropdownMenu>
                         </TableCell>
                       </TableRow>
                     </TableBody>
@@ -397,7 +328,7 @@ export default function TeamPage() {
                           </div>
                         </TableHead>
                         <TableHead>Status</TableHead>
-                        <TableHead className="text-right">Actions</TableHead>
+                        {/* <TableHead className="text-right">Actions</TableHead> */}
                       </TableRow>
                     </TableHeader>
                     <TableBody>
@@ -413,9 +344,6 @@ export default function TeamPage() {
                             Healthy
                           </span>
                         </TableCell>
-                        <TableCell className="text-right">
-                          <Button size="sm">Add</Button>
-                        </TableCell>
                       </TableRow>
                       <TableRow>
                         <TableCell className="font-medium">
@@ -428,9 +356,6 @@ export default function TeamPage() {
                           <span className="inline-flex items-center rounded-full bg-red-100 px-2.5 py-0.5 text-xs font-medium text-red-800">
                             Injured
                           </span>
-                        </TableCell>
-                        <TableCell className="text-right">
-                          <Button size="sm">Add</Button>
                         </TableCell>
                       </TableRow>
                       <TableRow>
@@ -445,9 +370,6 @@ export default function TeamPage() {
                             Healthy
                           </span>
                         </TableCell>
-                        <TableCell className="text-right">
-                          <Button size="sm">Add</Button>
-                        </TableCell>
                       </TableRow>
                       <TableRow>
                         <TableCell className="font-medium">
@@ -461,9 +383,6 @@ export default function TeamPage() {
                             Healthy
                           </span>
                         </TableCell>
-                        <TableCell className="text-right">
-                          <Button size="sm">Add</Button>
-                        </TableCell>
                       </TableRow>
                       <TableRow>
                         <TableCell className="font-medium">
@@ -476,9 +395,6 @@ export default function TeamPage() {
                           <span className="inline-flex items-center rounded-full bg-yellow-100 px-2.5 py-0.5 text-xs font-medium text-yellow-800">
                             Questionable
                           </span>
-                        </TableCell>
-                        <TableCell className="text-right">
-                          <Button size="sm">Add</Button>
                         </TableCell>
                       </TableRow>
                     </TableBody>

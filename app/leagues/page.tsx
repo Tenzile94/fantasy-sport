@@ -164,11 +164,11 @@ export default function LeaguesPage() {
                   </div>
                 </div>
               </CardContent>
-              <CardFooter>
+              {/* <CardFooter>
                 <Button className="w-full bg-blue-600 hover:bg-blue-700">
                   Join League
                 </Button>
-              </CardFooter>
+              </CardFooter> */}
             </Card>
 
             <Card className="hover:shadow-xl transition-all duration-300 border-purple-200 hover:border-purple-400">
@@ -202,11 +202,11 @@ export default function LeaguesPage() {
                   </div>
                 </div>
               </CardContent>
-              <CardFooter>
+              {/* <CardFooter>
                 <Button className="w-full bg-purple-600 hover:bg-purple-700">
                   Join Waitlist
                 </Button>
-              </CardFooter>
+              </CardFooter> */}
             </Card>
 
             <Card className="hover:shadow-xl transition-all duration-300 border-orange-200 hover:border-orange-400">
@@ -240,11 +240,11 @@ export default function LeaguesPage() {
                   </div>
                 </div>
               </CardContent>
-              <CardFooter>
+              {/* <CardFooter>
                 <Button className="w-full bg-orange-600 hover:bg-orange-700">
                   Join League
                 </Button>
-              </CardFooter>
+              </CardFooter> */}
             </Card>
 
             <Card className="hover:shadow-xl transition-all duration-300 border-blue-200 hover:border-blue-400">
@@ -276,11 +276,11 @@ export default function LeaguesPage() {
                   </div>
                 </div>
               </CardContent>
-              <CardFooter>
+              {/* <CardFooter>
                 <Button className="w-full bg-blue-600 hover:bg-blue-700">
                   Join League
                 </Button>
-              </CardFooter>
+              </CardFooter> */}
             </Card>
 
             <Card className="hover:shadow-xl transition-all duration-300 border-purple-200 hover:border-purple-400">
@@ -314,11 +314,11 @@ export default function LeaguesPage() {
                   </div>
                 </div>
               </CardContent>
-              <CardFooter>
+              {/* <CardFooter>
                 <Button className="w-full bg-purple-600 hover:bg-purple-700">
                   Join League
                 </Button>
-              </CardFooter>
+              </CardFooter> */}
             </Card>
 
             <Card className="hover:shadow-xl transition-all duration-300 border-orange-200 hover:border-orange-400">
@@ -352,11 +352,11 @@ export default function LeaguesPage() {
                   </div>
                 </div>
               </CardContent>
-              <CardFooter>
+              {/* <CardFooter>
                 <Button className="w-full bg-orange-600 hover:bg-orange-700">
                   Enter Invitation Code
                 </Button>
-              </CardFooter>
+              </CardFooter> */}
             </Card>
           </div>
 
@@ -377,7 +377,7 @@ export default function LeaguesPage() {
                     </div>
                   </TableHead>
                   <TableHead>Status</TableHead>
-                  <TableHead className="text-right">Actions</TableHead>
+                  {/* <TableHead className="text-right">Actions</TableHead> */}
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -393,15 +393,6 @@ export default function LeaguesPage() {
                       Active
                     </span>
                   </TableCell>
-                  <TableCell className="text-right">
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      className="text-blue-600 hover:bg-blue-50 hover:text-blue-700"
-                    >
-                      Manage
-                    </Button>
-                  </TableCell>
                 </TableRow>
                 <TableRow className="hover:bg-blue-50 transition-colors">
                   <TableCell className="font-medium">
@@ -415,15 +406,6 @@ export default function LeaguesPage() {
                       Active
                     </span>
                   </TableCell>
-                  <TableCell className="text-right">
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      className="text-blue-600 hover:bg-blue-50 hover:text-blue-700"
-                    >
-                      Manage
-                    </Button>
-                  </TableCell>
                 </TableRow>
                 <TableRow className="hover:bg-blue-50 transition-colors">
                   <TableCell className="font-medium">
@@ -436,15 +418,6 @@ export default function LeaguesPage() {
                     <span className="inline-flex items-center rounded-full bg-yellow-100 px-2.5 py-0.5 text-xs font-medium text-yellow-800">
                       Draft Soon
                     </span>
-                  </TableCell>
-                  <TableCell className="text-right">
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      className="text-blue-600 hover:bg-blue-50 hover:text-blue-700"
-                    >
-                      Manage
-                    </Button>
                   </TableCell>
                 </TableRow>
               </TableBody>

@@ -203,11 +203,11 @@ export default function Home() {
                     <span>Season: 2025-2026</span>
                   </div>
                 </CardContent>
-                <CardFooter>
+                {/* <CardFooter>
                   <Button className="w-full bg-blue-600 hover:bg-blue-700">
                     Join League
                   </Button>
-                </CardFooter>
+                </CardFooter> */}
               </Card>
               <Card className="hover:shadow-xl transition-all duration-300 border-purple-200 hover:border-purple-400">
                 <CardHeader>
@@ -230,11 +230,11 @@ export default function Home() {
                     <span>Season: 2025-2026</span>
                   </div>
                 </CardContent>
-                <CardFooter>
+                {/* <CardFooter>
                   <Button className="w-full bg-purple-600 hover:bg-purple-700">
                     Join League
                   </Button>
-                </CardFooter>
+                </CardFooter> */}
               </Card>
               <Card className="hover:shadow-xl transition-all duration-300 border-orange-200 hover:border-orange-400">
                 <CardHeader>
@@ -257,11 +257,11 @@ export default function Home() {
                     <span>Season: 2025-2026</span>
                   </div>
                 </CardContent>
-                <CardFooter>
+                {/* <CardFooter>
                   <Button className="w-full bg-orange-600 hover:bg-orange-700">
                     Join League
                   </Button>
-                </CardFooter>
+                </CardFooter> */}
               </Card>
             </div>
           </div>
